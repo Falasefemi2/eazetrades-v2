@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- @format -->
 
-## Getting Started
+EazeTrades
+EazeTrades is an online marketplace that connects buyers and sellers, providing a secure and enjoyable shopping experience. This project is built using Next.js, React, and Tailwind CSS.
 
-First, run the development server:
+## Table of Contents
 
-```bash
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- User authentication (sign up, sign in, verify)
+- Product listing and filtering
+- Category browsing
+- Product details with image gallery
+- Contact form
+- Responsive design
+
+## Installation
+
+1. Clone the repository:
+
+````sh
+git clone https://github.com/your-username/eazetrades.git
+cd eazetrades
+
+2. install dependencies
+
+```sh
+npm install
+
+3. Run the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and navigate to http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+├── .gitignore
+├── .next/
+├── app/
+│   ├── (auth)/
+│   ├── (main)/
+│   ├── globals.css
+│   ├── layout.tsx
+├── components/
+│   ├── category-scroll.tsx
+│   ├── footer.tsx
+│   ├── mobile-nav.tsx
+│   ├── navbar.tsx
+│   ├── product-filter.tsx
+│   ├── team-member-modal.tsx
+│   ├── trending-products.tsx
+│   ├── ui/
+├── lib/
+├── public/
+├── .gitignore
+├── components.json
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+├── tsconfig.jsonUsage
+Browse products by categories
+View product details
+Filter products by various criteria
+Contact support through the contact form
+Sign up and sign in to your account
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+License
+This project is licensed under the MIT License. See the LICENSE file for details. ```
+````
